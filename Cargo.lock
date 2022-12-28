@@ -3845,6 +3845,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "pallet-custom"
+version = "4.0.0-dev"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+]
+
+[[package]]
 name = "pallet-grandpa"
 version = "4.0.0-dev"
 source = "git+https://github.com/paritytech/substrate.git#2a0eeff4008573f6ead70eb9bd43cf6d268d2e7d"
